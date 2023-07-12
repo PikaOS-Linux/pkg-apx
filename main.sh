@@ -1,5 +1,5 @@
 # Clone Upstream
-git clone --recursive -b lunar https://github.com/PikaOS-Linux/apx
+git clone --recursive -b main https://github.com/PikaOS-Linux/apx
 cd ./apx
 
 # Get build deps
