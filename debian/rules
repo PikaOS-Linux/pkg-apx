@@ -9,6 +9,7 @@ export GOPROXY := https://proxy.golang.org,direct
 
 override_dh_install:
 	dh_install
+	ln -sf /usr/bin/apx debian/apx/usr/bin/apx2
 	make install-manpages DESTDIR=debian/apx/
 
 override_dh_auto_build:
