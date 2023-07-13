@@ -8,3 +8,7 @@ export DH_GOPKG := github.com/vanilla-os/apx
 override_dh_install:
 	dh_install
 	make install-manpages DESTDIR=debian/apx/
+
+override_dh_auto_build:
+	go mod download	
+	dh_auto_build --
