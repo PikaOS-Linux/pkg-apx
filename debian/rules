@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 export DH_GOPKG := github.com/vanilla-os/apx
+export GO111MODULE := off
 
 %:
 	dh $@
