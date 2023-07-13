@@ -1,5 +1,6 @@
 # Clone Upstream
-git clone --recursive -b main https://github.com/PikaOS-Linux/apx
+git clone --recursive https://github.com/Vanilla-OS/apx
+cp -rvf ./debian ./apx/
 cd ./apx
 
 # Get build deps

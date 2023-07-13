@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/vanilla-os/apx
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	make install-manpages DESTDIR=debian/apx/
