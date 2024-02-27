@@ -1,5 +1,5 @@
 # Clone Upstream
-git clone --recursive https://github.com/Vanilla-OS/apx
+git clone --recursive https://github.com/Vanilla-OS/apx -b v2.4.0
 cp -rvf ./debian ./apx/
 cd ./apx
 
